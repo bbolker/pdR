@@ -18,6 +18,5 @@ Imports:
   plm,
   pglm,
   lme4,
-  glmmTMB,
   uroot
 NeedsCompilation: no

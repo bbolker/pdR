@@ -1,5 +1,5 @@
 exportPattern("^[[:alpha:]]+")
-import('glmmTMB','lme4','pglm',"plm")
+import('lme4','pglm',"plm")
 importFrom("graphics", "abline", "grid", "legend", "lines","par", "plot.new", "plot", "title")
 importFrom("stats", "na.omit","ppoints", "time", "var")
 importFrom("stats","AIC","anova","approx","BIC","coef","embed","lm","pnorm","update")
@@ -13,4 +13,4 @@ export("tr","sse_calc","thr_sse","r_est","model","ptm")
 export("pIGF","IGF","lagSelect","tbar")
 export("ipsHEGY")
 export("SMPLSplit_est","SMPLSplit_het","SMPLSplit_example")
-export("htest_pglm")
+# export("htest_pglm") # commented out: htest_pglm not present in R/ (missing mis.R); see CRAN 1.9.4 for the original definition
